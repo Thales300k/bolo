@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARISE</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="paper">
+    <header>
+      <h1>Receita</h1>
+      <div class="linha"></div>
+      <p class="subtitulo">Não recomendo o consumo desse bolo</p>
+    </header>
+    <div class="receita-container">
+      <div class="recipe-carousel">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <div class="slides">
+          <div class="slide s1">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80" alt="Bolo caseiro da vovó 1">
+          </div>
+          <div class="slide s2">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGcAaAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAACAwQBBQAG/9oACAEBAAAAAPnuqXjGWn0t1qYXsehWt1Qg8KKuSnX6WwmHUo5WrGj3gZUGc4solq8SK1DiCw5hadHWlCCVpo6PXHjvvkBknOayiyRdzkYvoc3ltaRh3JxxBXR8sn+O0fbI3KpYAbc8fanCMvAzcEfL0vEe+9gYP//EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgME/9oACgICEAMQAAAA49MrIPq5Z159aLUD6eWdcdDrLDmy9MyjYSypvKtmxoqTRqwiQtFNVf/EAC8QAAICAQMDAgYABgMAAAAAAAECABEDBBIhMUFRInEQE2GBkaEFFBUyQlIzgrH/2gAIAQEAAT8AJsKO8xKRjQHrUIioxHAM2N5EONv9hDo9zWDMGBMV9bPUmZMG7nmPgNVP4aCj5lB7LMmqK5DjG5iBzNQRkx42s0HiYcachRcCsRdgDzAOaVfuZ8hyNzkKvljHfToOHZ2+goQ50AHB/M+biPdhAetMCBKvpxHBE02VUy5Xc0ox8/mJmVs2bIjtTEmytiOQdNkpwWVxcVRVsOP/AEzHhbMT0ofgTLkwaQc8tHz5tZkA3LVXFVgAT3np3KSt15jpp8jpk211DLXBjstbMYKpVAQZSaBAE3hhR4lEPqVPfCZpWGPCzn/C/uTNIdyaoeVU/hpjQ5ciqvsJl1eDAvy8R3EdxDndj2mRsG7G6Kd6/iM7uCWYknueekxncOnBrn3i7LHJ2xgAYbAudxxEVXzqjcb0Zb95/TMWwp816JuHQ4NLjzOuQklKokRsow4Xo07ekQcgzqfhhCGw3SjEAXI/BPPEOQkbuCD3AmLNh+WRkfvQjKAOsLbeZlxcjg2CCI2nW79XPMGnCm6M1GW6x+CTLT5QN83CQGYA8XdzvN4xAMeQe0djkcuax1wB7RUbIx5ZwPtGViSTjI29q4ExZgoK0xEwqMmTGK72ZqBTIe5WFuBCZnx36hAa4P5gs3XaAiplBL0fE0Wiw50fJkc7lMTS6fGRQJI5UTW5/l4iGSxkBEu0ofU/aaJScljvQmpItQP9JfB94TNLtsqQKexNRpKJA6iBmxtFIIsQHcv1mm1baZcibAd3k0J/U3ITZhH3ioT1Y8m6mQifw9H3EhePPgzMdzGvYQjpAtwEih3BM9OflP8AkT91M2mXJysIbGYjWt9xL+ggYgUOku4V9QsewgKJgREb7jyZQ3EdhD8P7hY/uH7mPIyG1NQHFqBwdj/ozVaR2obP+0bG2NjTDgwNxytGKUK3f2hHNgzGqZMiqrHjlm8mCgv6hAHp/M4HY/AAqbEoN3ozkcERNTlQAXY8Gau9QwISqhwtdiBcl+eYEfIQNxqYcQRQqiGl4HJnTtL+kE4lEdIH4oj7GUD5H7gS/wDIQ4b4FfkT+XHlYMKpOaoAASq7Q+whM3GvgIfYTbAHgLDxPUR1gNTdCSRLMJJgBJ46z//EACARAQACAgIBBQAAAAAAAAAAAAEAEQIQAxIhIzAxQVH/2gAIAQIBAT8Ayz7SpUe1QySYPpn7M8kYEK0rKnE49fM5PLsJRKqWnwxVhKg/UaDTsZVyiO70M7Rfa//EAB0RAQACAwEAAwAAAAAAAAAAAAEAEQIQMSAwQVH/2gAIAQMBAT8ACtlSol59aqY8jKdAayH6gUbWW/kG/Fyup2AreUYeL91K+P8A/9k=" alt="Bolo caseiro da vovó 2">
+          </div>
+          <div class="slide s3">
+            <img src="https://img.elo7.com.br/product/zoom/40EABD1/arquivo-de-topo-de-bolo-shrek-shrek.jpg" alt="Bolo caseiro da vovó 3">
+          </div>
+        </div>
+        <div class="arrows">
+          <label class="arrow arrow-next s1" for="slide2">&#10095;</label>
+          <label class="arrow arrow-prev s2" for="slide1">&#10094;</label>
+          <label class="arrow arrow-next s2" for="slide3">&#10095;</label>
+          <label class="arrow arrow-next s3" for="slide1">&#10095;</label>
+        </div>
+        <div class="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+      <section class="receita-intro">
+        <h2>História da Receita</h2>
+        <p>"Solo Leveling" segue Sung Jin-Woo, um caçador fraco que, após quase morrer, recebe uma habilidade misteriosa que o torna cada vez mais poderoso. Ele enfrenta monstros e descobre segredos sobre portais e dimensões.</p>
+      </section>
+      <section class="receita-ingredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li><span>2 xícaras de farinha de trigo</span></li>
+          <li><span>1 xícara de açúcar</span></li>
+          <li><span>3 ovos</span></li>
+          <li><span>1/2 xícara de manteiga em temperatura ambiente</span></li>
+          <li><span>1 xícara de leite</span></li>
+          <li><span>1 colher de sopa de fermento em pó</span></li>
+          <li><span>1 colher de chá de essência de baunilha</span></li>
+          <li><span>Uma pitada de sal</span></li>
+        </ul>
+      </section>
+      <section class="instrucoes">
+        <h2>Modo de Preparo</h2>
+        <ol>
+          <li><span>VOCÊ É A RAZÃO DA MINHA FELICIDADE.</span></li>
+          <li><span>NÃO VÁ DIZER QUE VOCê NÃO É MINHA CARA METADE.</span></li>
+          <li><span>QUERO PRESENTEAR COM FLORES E HIEMANJA .</span></li>
+          <li><span>PEDIR UM PARAISO PRA GENTE SE ENCOSTAR.</span></li>
+          <li><span>E A VIOLA TOCAR MELODIAS PRA GENTE DANÇAR.</span></li>
+          <li><span>A BENÇÃO DAS ESTRELAS PRA NOS ILUMINAR.</span></li>
+          <li><span>RIR ATOA BRISA E PAZ, TROCAR OLHARES AO ANOITECER.</span></li>
+          <li><span>RIR ATOA É BOM DEMAIS, OLHAR PRO CÉU, SORRIR E AGRADECER!</span></li>
+          <li><span>VOCÊ É A RAZÃO DA MINHA FELICIDADE, NÃO VÁ DIZER QUE EU NÃO SOU</span></li>
+          <li><span>A SUA CARA METADE.</span></li>
+        </ol>
+      </section>
+      <section class="april-lies">
+        <h2>April Lies</h2>
+        <div class="april-lies">
+          <div class="flor-simbolo">✿ ✿ ✿</div>
+          <p>Ameagari no niji mo rin to saita hana mo irozuki afuredasu.</p>
+          <p>Akane-iro no sora aogu kimi ni ano hi koi ni ochita.</p>
+          <p>Shunkan no DORAMACHIKKU FIRUMU no naka no hito-koma mo.</p>
+          <p>Kienai yo kokoro ni kizamu kara.</p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="creditos"></div>
+      <p>kimi daio kime nam daio</p>
+    </footer>
+  </div>
+</body>
+</html>
